@@ -1,0 +1,62 @@
+[
+  {
+    "_id": "660f1a2b5f1b2c0012345671",
+    "name": "Anna University",
+    "founderName": "C.N. Annadurai",
+    "coursesOffering": ["Civil Engineering", "ECE", "EEE", "Chemical Engineering"],
+    "contactNumber": 4422357930,
+    "totalNoOfStudents": 20000,
+    "jobPlacementAnually": 5000,
+    "hostel": true,
+    "affiliation": true,
+    "address": "Sardar Patel Road, Guindy, Chennai, Tamil Nadu 600025"
+  },
+  {
+    "_id": "660f1a2b5f1b2c0012345672",
+    "name": "PSG College of Technology",
+    "founderName": "G.R. Damodaran",
+    "coursesOffering": ["Biomedical Engineering", "Biotechnology", "ECE", "EEE"],
+    "contactNumber": 4222572177,
+    "totalNoOfStudents": 8000,
+    "jobPlacementAnually": 2500,
+    "hostel": true,
+    "affiliation": true,
+    "address": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004"
+  },
+  {
+    "_id": "660f1a2b5f1b2c0012345673",
+    "name": "Thiagarajar College of Engineering",
+    "founderName": "Karaikudi Thiagarajar Chettiar",
+    "coursesOffering": ["Civil Engineering", "ECE", "EEE", "Chemical Engineering"],
+    "contactNumber": 4522482240,
+    "totalNoOfStudents": 7000,
+    "jobPlacementAnually": 1800,
+    "hostel": true,
+    "affiliation": true,
+    "address": "Thiruparankundram, Madurai, Tamil Nadu 625015"
+  },
+  {
+    "_id": "660f1a2b5f1b2c0012345674",
+    "name": "SRM Institute of Science and Technology",
+    "founderName": "T.R. Pachamuthu",
+    "coursesOffering": ["Biomedical Engineering", "Biotechnology", "ECE", "EEE", "Civil Engineering"],
+    "contactNumber": 4427455510,
+    "totalNoOfStudents": 50000,
+    "jobPlacementAnually": 12000,
+    "hostel": true,
+    "affiliation": false,
+    "address": "SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu 603203"
+  },
+  {
+    "_id": "660f1a2b5f1b2c0012345675",
+    "name": "VIT University",
+    "founderName": "G. Viswanathan",
+    "coursesOffering": ["Biotechnology", "ECE", "EEE", "Civil Engineering"],
+    "contactNumber": 4162202020,
+    "totalNoOfStudents": 35000,
+    "jobPlacementAnually": 9000,
+    "hostel": true,
+    "affiliation": false,
+    "address": "Vellore, Tamil Nadu 632014"
+  }
+]
