@@ -1,5 +1,6 @@
 const College = require('../models/College')
 const asyncHandler = require('../middleware/asyncHandler')
+const ErrorResponse = require('../utils/ErrorResponse')
 
 exports.getAllColleges = asyncHandler(async (req, res, next) => {
   const colleges = await College.find()
@@ -13,14 +14,17 @@ exports.createCollege = asyncHandler(async (req, res, next) => {
 
 
 exports.getCollegeById = asyncHandler(async (req, res, next) => {
-  const colleges = await College.findById(req.params.id)
-  res.status(200).json({ success: true, data: colleges })
+  const college = await College.findById(req.params.id)
+  if (!college) {
+    return next(new ErrorResponse(`College not found with the id of ${req.params.id}`, 404))
+  }
+  res.status(200).json({ success: true, data: college })
 })
 
 exports.updateCollege = asyncHandler(async (req, res, next) => {
   const college = await College.findByIdAndUpdate(req.params.id, req.body, { new: true, runValidators: true })
   if (!college) {
-    res.status(404).json({ success: false, data: `No data found with id of ${req.params.id}` })
+    return next(new ErrorResponse(`College not found with the id of ${req.params.id}`, 404))
   }
   res.status(200).json({ success: true, data: college })
 })
@@ -28,5 +32,10 @@ exports.updateCollege = asyncHandler(async (req, res, next) => {
 
 exports.deleteCollege = asyncHandler(async (req, res, next) => {
   const college = await College.findByIdAndDelete(req.params.id)
+
+  if (!college) {
+    return next(new ErrorResponse(`College not found with the id of ${req.params.id}`, 404))
+  }
+
   res.status(200).json({ success: true, data: 'Data deleted' })
 })
