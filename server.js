@@ -5,6 +5,7 @@ const colors = require('colors')
 const morgan = require('morgan')
 const connectDB = require('./config/db')
 const collegeRoutes = require('./routes/collegeRoutes')
+const errorHandler = require('./middleware/error')
 
 
 app.use(express.json())
@@ -18,7 +19,10 @@ const PORT = process.env.PORT || 3049
 //Connect to Database
 connectDB()
 
+
 app.use('/api/v1/colleges', collegeRoutes)
+
+app.use(errorHandler)
 
 app.listen(PORT, () => {
   console.log(`Server running on ${process.env.NODE_ENV} mode and listening on ${PORT}`.yellow.inverse)
