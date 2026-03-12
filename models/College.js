@@ -13,6 +13,9 @@ const collegeSchema = new mongoose.Schema({
   address: { type: String, required: [true, 'Please enter address'] },
   slug: { type: String },
   averageFees: { type: Number, required: [true, 'Please enter average fees'] }
+}, {
+  toJSON: { virtuals: true },
+  toObject: { virtuals: true }
 })
 
 collegeSchema.pre('save', async function () {
@@ -20,5 +23,13 @@ collegeSchema.pre('save', async function () {
   this.slug = slugify(this.name, { lower: true, strict: true })
 })
 
+
+//Populate using Virtuals
+collegeSchema.virtual('courses', {
+  ref: 'Course',
+  localField: '_id',
+  foreignField: 'college',
+  justOne: false
+})
 
 module.exports = mongoose.model('College', collegeSchema)
