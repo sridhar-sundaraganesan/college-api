@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const slugify = require('slugify')
 
 const collegeSchema = new mongoose.Schema({
   name: { type: String, trim: true, unique: true, required: [true, 'Please enter college name'] },
@@ -10,6 +11,14 @@ const collegeSchema = new mongoose.Schema({
   hostel: { type: Boolean, default: true },
   affiliation: { type: Boolean, default: false },
   address: { type: String, required: [true, 'Please enter address'] },
+  slug: { type: String },
+  averageFees: { type: Number, required: [true, 'Please enter average fees'] }
 })
+
+collegeSchema.pre('save', async function () {
+  console.log('Slug ran')
+  this.slug = slugify(this.name, { lower: true, strict: true })
+})
+
 
 module.exports = mongoose.model('College', collegeSchema)
