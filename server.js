@@ -6,9 +6,13 @@ const morgan = require('morgan')
 const connectDB = require('./config/db')
 const collegeRoutes = require('./routes/collegeRoutes')
 const errorHandler = require('./middleware/error')
-
+const qs = require('qs')
 
 app.use(express.json())
+
+//Query parser
+app.set('query parser', str => qs.parse(str))
+
 dotenv.config({ path: './config/config.env' })
 
 if (process.env.NODE_ENV === 'development') {
