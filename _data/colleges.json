@@ -9,7 +9,8 @@
     "jobPlacementAnually": 5000,
     "hostel": true,
     "affiliation": true,
-    "address": "Sardar Patel Road, Guindy, Chennai, Tamil Nadu 600025"
+    "address": "Sardar Patel Road, Guindy, Chennai, Tamil Nadu 600025",
+    "averageFees":460000
   },
   {
     "_id": "660f1a2b5f1b2c0012345672",
@@ -21,7 +22,8 @@
     "jobPlacementAnually": 2500,
     "hostel": true,
     "affiliation": true,
-    "address": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004"
+    "address": "Avinashi Road, Peelamedu, Coimbatore, Tamil Nadu 641004",
+    "averageFees":660000
   },
   {
     "_id": "660f1a2b5f1b2c0012345673",
@@ -33,7 +35,8 @@
     "jobPlacementAnually": 1800,
     "hostel": true,
     "affiliation": true,
-    "address": "Thiruparankundram, Madurai, Tamil Nadu 625015"
+    "address": "Thiruparankundram, Madurai, Tamil Nadu 625015",
+    "averageFees":360000
   },
   {
     "_id": "660f1a2b5f1b2c0012345674",
@@ -45,7 +48,8 @@
     "jobPlacementAnually": 12000,
     "hostel": true,
     "affiliation": false,
-    "address": "SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu 603203"
+    "address": "SRM Nagar, Kattankulathur, Chengalpattu District, Tamil Nadu 603203",
+    "averageFees":850000
   },
   {
     "_id": "660f1a2b5f1b2c0012345675",
@@ -57,6 +61,7 @@
     "jobPlacementAnually": 9000,
     "hostel": true,
     "affiliation": false,
-    "address": "Vellore, Tamil Nadu 632014"
+    "address": "Vellore, Tamil Nadu 632014",
+    "averageFees":1060000
   }
 ]
