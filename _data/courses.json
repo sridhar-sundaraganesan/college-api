@@ -1,0 +1,196 @@
+[
+  {
+    "title": "Civil Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Ramesh",
+    "hodContact": "9876543210",
+    "facultyNames": ["Prof. Anitha", "Prof. Karthik"],
+    "placementsLastYear": 800,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345671"
+  },
+  {
+    "title": "ECE",
+    "courseDuration": 48,
+    "hod": "Dr. Lakshmi",
+    "hodContact": "9876543211",
+    "facultyNames": ["Prof. Suresh", "Prof. Divya"],
+    "placementsLastYear": 1200,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345671"
+  },
+  {
+    "title": "EEE",
+    "courseDuration": 48,
+    "hod": "Dr. Aravind",
+    "hodContact": "9876543212",
+    "facultyNames": ["Prof. Mani", "Prof. Rekha"],
+    "placementsLastYear": 1000,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345671"
+  },
+  {
+    "title": "Chemical Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Priya",
+    "hodContact": "9876543213",
+    "facultyNames": ["Prof. Arjun", "Prof. Kavitha"],
+    "placementsLastYear": 600,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345671"
+  },
+
+  {
+    "title": "Biomedical Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Meena",
+    "hodContact": "9876543214",
+    "facultyNames": ["Prof. Rajesh", "Prof. Sneha"],
+    "placementsLastYear": 300,
+    "preRequisite": ["BioComputer"],
+    "college": "660f1a2b5f1b2c0012345672"
+  },
+  {
+    "title": "Biotechnology",
+    "courseDuration": 48,
+    "hod": "Dr. Gayathri",
+    "hodContact": "9876543215",
+    "facultyNames": ["Prof. Bala", "Prof. Nisha"],
+    "placementsLastYear": 400,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345672"
+  },
+  {
+    "title": "ECE",
+    "courseDuration": 48,
+    "hod": "Dr. Senthil",
+    "hodContact": "9876543216",
+    "facultyNames": ["Prof. Deepa", "Prof. Arun"],
+    "placementsLastYear": 500,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345672"
+  },
+  {
+    "title": "EEE",
+    "courseDuration": 48,
+    "hod": "Dr. Manikandan",
+    "hodContact": "9876543217",
+    "facultyNames": ["Prof. Shalini", "Prof. Vivek"],
+    "placementsLastYear": 450,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345672"
+  },
+
+  {
+    "title": "Civil Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Kumar",
+    "hodContact": "9876543218",
+    "facultyNames": ["Prof. Ravi", "Prof. Meena"],
+    "placementsLastYear": 350,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345673"
+  },
+  {
+    "title": "Chemical Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Arjun",
+    "hodContact": "9876543219",
+    "facultyNames": ["Prof. Kavitha", "Prof. Siva"],
+    "placementsLastYear": 300,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345673"
+  },
+  {
+    "title": "ECE",
+    "courseDuration": 48,
+    "hod": "Dr. Rekha",
+    "hodContact": "9876543220",
+    "facultyNames": ["Prof. Mani", "Prof. Divya"],
+    "placementsLastYear": 400,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345673"
+  },
+  {
+    "title": "EEE",
+    "courseDuration": 48,
+    "hod": "Dr. Suresh",
+    "hodContact": "9876543221",
+    "facultyNames": ["Prof. Anitha", "Prof. Karthik"],
+    "placementsLastYear": 350,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345673"
+  },
+
+  {
+    "title": "Biomedical Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Nisha",
+    "hodContact": "9876543222",
+    "facultyNames": ["Prof. Bala", "Prof. Sneha"],
+    "placementsLastYear": 600,
+    "preRequisite": ["BioComputer"],
+    "college": "660f1a2b5f1b2c0012345674"
+  },
+  {
+    "title": "Biotechnology",
+    "courseDuration": 48,
+    "hod": "Dr. Rajesh",
+    "hodContact": "9876543223",
+    "facultyNames": ["Prof. Arjun", "Prof. Kavitha"],
+    "placementsLastYear": 700,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345674"
+  },
+  {
+    "title": "Civil Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Deepa",
+    "hodContact": "9876543224",
+    "facultyNames": ["Prof. Arun", "Prof. Shalini"],
+    "placementsLastYear": 800,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345674"
+  },
+
+  {
+    "title": "Biotechnology",
+    "courseDuration": 48,
+    "hod": "Dr. Sneha",
+    "hodContact": "9876543225",
+    "facultyNames": ["Prof. Rajesh", "Prof. Meena"],
+    "placementsLastYear": 900,
+    "preRequisite": ["BioComputer"],
+    "college": "660f1a2b5f1b2c0012345675"
+  },
+  {
+    "title": "Civil Engineering",
+    "courseDuration": 48,
+    "hod": "Dr. Arjun",
+    "hodContact": "9876543226",
+    "facultyNames": ["Prof. Kavitha", "Prof. Bala"],
+    "placementsLastYear": 1000,
+    "preRequisite": ["Biomaths"],
+    "college": "660f1a2b5f1b2c0012345675"
+  },
+  {
+    "title": "ECE",
+    "courseDuration": 48,
+    "hod": "Dr. Divya",
+    "hodContact": "9876543227",
+    "facultyNames": ["Prof. Suresh", "Prof. Nisha"],
+    "placementsLastYear": 1100,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345675"
+  },
+  {
+    "title": "EEE",
+    "courseDuration": 48,
+    "hod": "Dr. Mani",
+    "hodContact": "9876543228",
+    "facultyNames": ["Prof. Rekha", "Prof. Arun"],
+    "placementsLastYear": 950,
+    "preRequisite": ["ComputerMaths"],
+    "college": "660f1a2b5f1b2c0012345675"
+  }
+]
