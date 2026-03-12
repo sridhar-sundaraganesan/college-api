@@ -3,7 +3,34 @@ const asyncHandler = require('../middleware/asyncHandler')
 const ErrorResponse = require('../utils/ErrorResponse')
 
 exports.getAllColleges = asyncHandler(async (req, res, next) => {
-  const colleges = await College.find()
+  console.log(req.query)
+
+  let queryObj = { ...req.query }
+
+  let removeFields = ['select', 'sort']
+  removeFields.forEach(val => delete queryObj[val])
+
+  let queryStr = JSON.stringify(queryObj)
+
+  queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`)
+
+  queryObj = JSON.parse(queryStr)
+  console.log(queryObj)
+
+  let query = College.find(queryObj)
+
+  if (req.query.select) {
+    const fields = req.query.select.split(',').join(' ')
+    query = query.select(fields)
+  }
+
+  if (req.query.sort) {
+    const sortBy = req.query.sort.split(',').join(' ')
+    query = query.sort(sortBy)
+  }
+
+
+  const colleges = await query
   res.status(200).json({ success: true, count: colleges.length, data: colleges })
 })
 
