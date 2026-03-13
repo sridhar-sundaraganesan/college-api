@@ -17,7 +17,7 @@ exports.getAllColleges = asyncHandler(async (req, res, next) => {
   queryObj = JSON.parse(queryStr)
   console.log(queryObj)
 
-  let query = College.find(queryObj)
+  let query = College.find(queryObj).populate('courses')
 
 
   if (req.query.select) {

@@ -5,6 +5,7 @@ const colors = require('colors')
 const morgan = require('morgan')
 const connectDB = require('./config/db')
 const collegeRoutes = require('./routes/collegeRoutes')
+const courseRoutes = require('./routes/courseRoutes')
 const errorHandler = require('./middleware/error')
 const qs = require('qs')
 
@@ -25,6 +26,7 @@ connectDB()
 
 
 app.use('/api/v1/colleges', collegeRoutes)
+app.use('/api/v1/courses', courseRoutes)
 
 app.use(errorHandler)
 
